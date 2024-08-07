@@ -1,0 +1,34 @@
+# Root level
+node_modules/
+.env
+.DS_Store
+
+# Frontend
+/frontend/node_modules/
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage/
+/frontend/build/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Backend
+/backend/node_modules/
+/backend/.env
+/backend/logs/
+/backend/*.log
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
